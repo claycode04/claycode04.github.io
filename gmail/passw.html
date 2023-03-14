@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="gmail.css">
+    <script src="jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center> <img class="logo" src="YB__1_-removebg-preview.png" alt=""></center>
+  <center>  <fieldset>
+      <img src="loogo.png" width="100px" height="80px
+      " alt="">
+      <h2>Connexion</h2>
+     <p style="margin-right: 2%;font-size: 12px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Pour continuer, veuillez confirmer votre identité</p>
+     <BR></BR>
+     <input id="ze" type="password" placeholder="Saisissez votre mot de passe">
+     <br> <div id="ye"></div>
+     <div class="aff">
+        <input id="check" type="checkbox" name="" id="">
+    <label for="" id="ss">Afficher le mot de passe </label></div>
+    
+     <br><br><br>
+     
+    <br><br>
+    <div class="last"><button  class="pp">Mot de Pass oublié ?</button>
+    <button type="button" > Suivant</button></div>
+    
+    
+    </fieldset></center>
+    <script>
+        $(document).ready(function () {
+          var password = $("#ze");
+
+          $("#check").click(function () {
+            if (password.attr("type") == "password") {
+              password.attr("type", "text");
+            }
+            else{
+                password.attr("type", "password");
+            }
+          });
+        });
+    </script>
+</body>
