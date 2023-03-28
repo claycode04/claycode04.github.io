@@ -1,0 +1,408 @@
+
+
+/*_______page famme_______*/
+
+.div11{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    background-color: #e7ab3c;
+    margin: 5px;
+}
+.div11 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px;
+}
+.div11 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin: 5px;
+}
+.div11 h4{
+    font-size: 18px;
+    color: aliceblue;
+    margin: 5px;
+}
+
+.div11 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div12{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+    background-color:#e7ab3c;
+    margin: 5px;
+}
+.div12 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px ;
+}
+.div12 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.div12 h4{
+    font-size: 18px;
+    color: aliceblue;
+}
+.div12 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div13{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+    background-color:#e7ab3c;
+    margin: 5px;
+}
+.div13 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px ;
+}
+.div13 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.div13 h4{
+    font-size: 18px;
+    color: aliceblue;
+}
+.div13 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div14{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+    background-color: #e7ab3c;
+    margin: 5px;
+}
+.div14 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px ;
+}
+.div14 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.div14 h4{
+    font-size: 18px;
+    color: aliceblue;
+}
+.div14 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div15{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+    background-color: #e7ab3c;
+    margin: 5px;
+}
+.div15 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px ;
+}
+.div15 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.div15 h4{
+    font-size: 18px;
+    color: aliceblue;
+}
+.div15 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div16{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+    background-color:#e7ab3c;
+    margin: 5px;
+}
+.div16 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px ;
+}
+.div16 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.div16 h4{
+    font-size: 18px;
+    color: aliceblue;
+}
+.div16 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div17{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+    background-color: #e7ab3c;
+    margin: 5px;
+}
+.div17 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px ;
+}
+.div17 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.div17 h4{
+    font-size: 18px;
+    color: aliceblue;
+}
+.div17 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div18{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+    background-color:#e7ab3c;
+    margin: 5px;
+}
+.div18 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px ;
+}
+.div18 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.div18 h4{
+    font-size: 18px;
+    color: aliceblue;
+}
+.div18 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.div19{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+    background-color:#e7ab3c;
+    margin: 5px;
+}
+.div19 img{
+    width: 40px;
+    height: 50px;
+    margin: 5px ;
+}
+.div19 h6{
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+}
+.div19 h4{
+    font-size: 18px;
+    color: aliceblue;
+}
+.div19 button{
+    border: none;
+    background-color: transparent;
+    color: darkred;
+    margin-right: 5px;
+    font-size: 20px;
+}
