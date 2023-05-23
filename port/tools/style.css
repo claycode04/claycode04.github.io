@@ -52,7 +52,7 @@ nav {
 }
 .verticalNav:nth-child(3) {
   right: 0px;
-  background: transparent;
+  background: url(imgs/d.png);
 }
 .hideToggle nav {
   margin-right: 0px;
