@@ -44,7 +44,7 @@ nav {
 
 .verticalNav:nth-child(1) {
   right: 80px;
-  background: transparent;
+  background: url(imgs/d.png);
 }
 .verticalNav:nth-child(2) {
   right: 40px;
@@ -123,7 +123,10 @@ textarea:hover {
   color: white;
 }
 .contact {
-  background:linear-gradient(rgba(255, 255, 255, 0.657),rgba(128, 0, 128, 0.622));
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.657),
+    rgba(128, 0, 128, 0.622)
+  );
 
   text-align: center;
   color: #fff;
@@ -137,23 +140,24 @@ textarea:hover {
   margin-right: 95px;
 }
 
-#cont{
-  background:linear-gradient(rgba(255, 255, 255, 0.657),rgba(128, 0, 128, 0.622));
+#cont {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.657),
+    rgba(128, 0, 128, 0.622)
+  );
   width: 300px;
   height: 50px;
   border-radius: 5px;
   margin: 10px;
   padding: 5px;
   margin-left: 20%;
-text-align: center;
-
+  text-align: center;
 }
-img,a{
+img,
+a {
   float: left;
   margin-left: 6%;
-  
 }
-#logo{
+#logo {
   margin-top: 5%;
 }
-
