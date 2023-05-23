@@ -45,6 +45,9 @@ nav {
 .verticalNav:nth-child(1) {
   right: 80px;
   background: url(imgs/d.png);
+  background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
 }
 .verticalNav:nth-child(2) {
   right: 40px;
@@ -53,6 +56,9 @@ nav {
 .verticalNav:nth-child(3) {
   right: 0px;
   background: url(imgs/d.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hideToggle nav {
   margin-right: 0px;
