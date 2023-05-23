@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="gmail.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center> <img class="logo" src="YB__1_-removebg-preview.png" alt=""></center>
+  <center>  <fieldset>
+      <img src="loogo.png" width="100px" height="80px
+      " alt="">
+      <h2>Connexion</h2>
+     <h4>Utiliser Votre Compte Google</h4>
+     <input onchange="valider()" id="ze" type="email" placeholder="Adresse e-mail ou numèro de télephone">
+     <br> <div id="ye"></div>
+     <a class="tet" href="#">Adresse e-mail oubié?</a>
+     <br><br><br>
+     <p>S'il ne s'agit pas de votre ordinateur, utilisez le mode Invité pour vous connecter en mode privé. <a href="#">En savoir plus</a> </p>
+    <br><br>
+    <button class="cree">Créer un compte</button>
+    <button id="id" type="button"><a style="text-decoration: none;
+        color: white;" id="erea" href="passw.html">Suivant</a> </button>
+    
+    </fieldset></center>
+    <script>
+         function valider(){
+        
+        var c=document.getElementById("ze").value
+        
+        var y=c.indexOf('@');
+        if (y<0){
+          var h=  document.getElementById("ye").innerHTML=" <span style='display: inline-block;background-color: #ffe6e6;color: #cc0000;font-size: 14px;font-weight: bold; padding: 10px;margin-bottom: 10px;border-radius: 5px;border: 2px solid #cc0000;'>e-mail non valide</span>"
+            var r = document.getElementById("id")
+         var d = document.getElementById("erea");
+         d.remove()
+        r.append('Suivant')
+        }
+
+        
+
+   }
+    </script>
+</body>
+</html>
