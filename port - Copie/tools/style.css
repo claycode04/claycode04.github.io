@@ -1,0 +1,159 @@
+nav {
+  margin-right: 120px;
+}
+.verticalNav {
+  width: 40px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  line-height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+  border-right: 2px solid #232323;
+}
+
+.verticalNav:hover {
+  width: 100%;
+  writing-mode: unset;
+  text-orientation: sideways;
+}
+
+.verticalNav:hover .navContent {
+  margin-left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.navContent p {
+  line-height: 1.2em;
+}
+.navContent,
+.verticalNav:hover .siteNavLabel {
+  display: none;
+}
+.subNavMenu {
+  font-size: 6em;
+  line-height: 1em;
+  color: #fff;
+}
+
+.verticalNav:nth-child(1) {
+  right: 80px;
+  background: transparent;
+}
+.verticalNav:nth-child(2) {
+  right: 40px;
+  background: transparent;
+}
+.verticalNav:nth-child(3) {
+  right: 0px;
+  background: transparent;
+}
+.hideToggle nav {
+  margin-right: 0px;
+}
+.hideToggle .verticalNav {
+  display: none;
+}
+#toggleRightMenu {
+  cursor: pointer;
+}
+.hideToggle #toggleRightMenu {
+  transform: rotate(180deg);
+}
+
+body {
+  background: url(imgs/d.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .row .col {
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+}
+.container .row .col .box {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+}
+.container .row .col .box .content {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+}
+#tt {
+  text-align: center;
+  border-radius: 20px;
+}
+input[value] {
+  text-align: center;
+  border-radius: 20px;
+  color: gray;
+}
+input,
+textarea {
+  background-color: transparent;
+  border: solide white;
+}
+
+input[value],
+textarea:hover {
+  color: white;
+}
+.contact {
+  background:linear-gradient(rgba(255, 255, 255, 0.657),rgba(128, 0, 128, 0.622));
+
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 95px;
+}
+
+#cont{
+  background:linear-gradient(rgba(255, 255, 255, 0.657),rgba(128, 0, 128, 0.622));
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  margin-left: 20%;
+text-align: center;
+
+}
+img,a{
+  float: left;
+  margin-left: 6%;
+  
+}
+#logo{
+  margin-top: 5%;
+}
+
