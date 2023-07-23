@@ -22,4 +22,8 @@ function valider() {
     " months, and " +
     (age_day < 0 ? 31 + age_day : age_day) +
     " days.";
+    if(year.trim()==''||month.trim()=='' || day.trim()==''){
+      document.getElementById("demo").innerHTML ='enter a valide date'
+    }
 }
+ 
